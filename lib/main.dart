@@ -20,9 +20,6 @@ class homePage extends StatefulWidget {
 class _homePageState extends State<homePage> {
   TextEditingController comment = TextEditingController();
   String com = "";
-  _onpressed() {
-    setState(() {});
-  }
 
   @override
   Widget build(BuildContext context) {
